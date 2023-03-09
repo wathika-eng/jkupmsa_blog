@@ -131,4 +131,5 @@ dmypy.json
 venv/
 blog_venv
 blog_venv/
-settings.py
+
+baseten.css
