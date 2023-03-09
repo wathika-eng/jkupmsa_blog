@@ -1,0 +1,52 @@
+:root{
+    --var-black: black;
+    --var-white: white;
+}
+
+*{
+    scroll-behavior: smooth;
+    background-color: var(--var-black);
+}
+
+
+
+#col{
+    display: none !important;
+}
+
+.navbar{
+    border-radius: 10px;
+    padding-left: 2%;
+}
+/*.hero{
+    top: -3%;
+    position: absolute;
+}
+*/
+.subtitle is-4{
+    margin-top: 10px;
+}
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom;
+    transition: transform 0.25s ease-out;
+  }
+  
+.hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom;
+  }
+
